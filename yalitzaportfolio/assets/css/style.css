@@ -45,18 +45,41 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
-
- /* header style */    
+}
+ /* header style */   
  
- /* Hero style start*/
 .hero {
-    background-image: url(../images/pasterl.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
+    background-image: url("../images/pastel.jpg");
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap;  */
+    /* align-items: flex-start; */
+}
+.hero-w {
+    /* background-color: #e1ffc4; */
+    text-align: right;
+    font-size: 55px; 
+    text-shadow: 0 0 10 px rgba(0, 0, 0, 0.5);
 }
 
 
- 
+
+     
+ /*About Me*/
+.aboutme {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+ }
+
+.aboutme h2 {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.aboutme p {
+    text-align: right;
+}

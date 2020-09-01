@@ -5,8 +5,8 @@
   
   /* brand color palette */
   :root {
-    --primary: rgba(230, 135, 199, 1);
-    --secondary: rgba(217, 85, 169, 1);
+    --primary: rgba(60, 94, 160, 1);
+    --secondary: rgba(212, 78, 163, 1);
     --tertiary: rgba(188, 201, 245, 1);
     --dark: rgba(76, 111, 177, 1);
     --light: rgba(246, 241, 245, 1);

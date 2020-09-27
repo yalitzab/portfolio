@@ -89,7 +89,7 @@
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/pastel.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%); */
+    background-image: url("../images/pastel.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     /* background-blend-mode: soft-light; */
@@ -240,8 +240,8 @@
     background-image: url("../images/02-portfolio-3.jpg");
   }
   
-  .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
+  .air-hiker {
+    background-image: url("../images/HeaderScreenshot.PNG");
   }
   
   /* END PORTFOLIO PROJECT IMAGES */

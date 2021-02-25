@@ -243,7 +243,27 @@
   .air-hiker {
     background-image: url("../images/HeaderScreenshot.PNG");
   }
+
+  .budget-tracker {
+    background-image: url("../css/.budget-tracker");
+  }
   
+  .daily-note {
+    background-image: url("../images/daily-note.jpg");
+  }
+
+  .ke-together {
+    background-image: url("../images/ke-together.jpg");
+  }
+
+  .note-taker {
+    background-image: url("../images/note-taker.jpg");
+  }
+
+  .readme-gen {
+    background-image: url("../images/readme-gen.jpg");
+  }
+
   /* END PORTFOLIO PROJECT IMAGES */
   
   @media screen and (max-width: 980px) {

@@ -180,6 +180,7 @@ main {
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
+  flex-wrap: wrap;
 }
 
 /* feature first portfolio item */
@@ -193,7 +194,7 @@ main {
 }
 
 .grid-item div {
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
   padding: 8px 10px;
 }
 
@@ -237,7 +238,7 @@ main {
 .button {
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 11px 10px;
   text-align: center;
   text-decoration: none;
   /* display: inline-block; */
@@ -245,6 +246,7 @@ main {
   margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 
 .button1 {

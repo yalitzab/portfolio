@@ -180,6 +180,7 @@ main {
   background-size: 150%;
   transition: all 0.5s;
   font-size: 0.9rem;
+  flex-wrap: wrap;
 }
 
 /* feature first portfolio item */
@@ -193,7 +194,7 @@ main {
 }
 
 .grid-item div {
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
   padding: 8px 10px;
 }
 
@@ -231,6 +232,32 @@ main {
 .contact address a:hover {
   background-size: 100% 88%;
   color: var(--secondary);
+}
+
+/* Buttons to project links */
+.button {
+  border: none;
+  color: white;
+  padding: 11px 10px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.button1:hover {
+  background-color: #4caf50;
+  color: white;
 }
 
 /* PORTFOLIO PROJECT IMAGES */
